@@ -1,0 +1,25 @@
+{
+  "name": "@zenparsing/scoped-css",
+  "version": "0.1.1",
+  "description": "Minimal CSS-in-JS",
+  "type": "module",
+  "main": "./scoped-css.js",
+  "types": "./scoped-css.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zenparsing/scoped-css.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "homepage": "https://github.com/zenparsing/scoped-css",
+  "devDependencies": {
+    "eslint": "^9.28.0",
+    "moon-unit": "^0.3.3"
+  },
+  "scripts": {
+    "test": "eslint *.js & node test",
+    "presubmitOnly": "npm test"
+  }
+}
