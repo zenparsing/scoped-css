@@ -1,6 +1,6 @@
 {
   "name": "@zenparsing/scoped-css",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Minimal CSS-in-JS",
   "type": "module",
   "main": "./scoped-css.js",
